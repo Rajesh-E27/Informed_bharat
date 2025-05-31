@@ -1,0 +1,101 @@
+[
+  {
+    "pincode": "560001",
+    "title": "Metro Line Construction Phase 2",
+    "description": "Ongoing construction near MG Road, improving connectivity.",
+    "location": "MG Road, Bengaluru - 560001",
+    "owner": "Bengaluru Metro Rail Corporation Ltd.",
+    "budget": "₹500 Crores",
+    "deadline_months": 18
+  },
+  {
+    "pincode": "560001",
+    "title": "Flyover Work at Hebbal",
+    "description": "Flyover being built to reduce traffic congestion and improve travel time.",
+    "location": "Hebbal Junction, Bengaluru - 560024",
+    "owner": "Bangalore Development Authority",
+    "budget": "₹120 Crores",
+    "deadline_months": 12
+  },
+  {
+    "pincode": "560001",
+    "title": "Metro Station Expansion at MG Road",
+    "description": "Construction of new metro exit/entry points and escalators at MG Road Metro Station to ease commuter traffic.",
+    "location": "MG Road, Bengaluru - 560001",
+    "owner": "Bengaluru Metro Rail Corporation Ltd.",
+    "budget": "₹75 Crores",
+    "deadline_months": 9
+  },
+  {
+    "pincode": "560001",
+    "title": "Smart Traffic Signal Implementation",
+    "description": "Installation of AI-based adaptive traffic signals for smoother flow at Brigade Road junction.",
+    "location": "Brigade Road, Bengaluru - 560001",
+    "owner": "Bengaluru Traffic Police",
+    "budget": "₹15 Crores",
+    "deadline_months": 6
+  },
+  {
+    "pincode": "560001",
+    "title": "Footpath Revamp Project",
+    "description": "Redesign and construction of pedestrian-friendly footpaths under TenderSURE standards.",
+    "location": "Church Street, Bengaluru - 560001",
+    "owner": "Bruhat Bengaluru Mahanagara Palike (BBMP)",
+    "budget": "₹8 Crores",
+    "deadline_months": 4
+  },
+  {
+    "pincode": "560024",
+    "title": "New BMTC Bus Depot",
+    "description": "Establishing a new eco-friendly BMTC depot with EV charging stations.",
+    "location": "Hebbal, Bengaluru - 560024",
+    "owner": "Bangalore Metropolitan Transport Corporation",
+    "budget": "₹40 Crores",
+    "deadline_months": 10
+  },
+  {
+    "pincode": "560024",
+    "title": "Flyover Maintenance Work",
+    "description": "Structural reinforcement and resurfacing of Hebbal Flyover to support heavy traffic loads.",
+    "location": "Outer Ring Road, Hebbal - 560024",
+    "owner": "Public Works Department (PWD), Karnataka",
+    "budget": "₹25 Crores",
+    "deadline_months": 6
+  },
+  {
+    "pincode": "560066",
+    "title": "IT Park Road Expansion",
+    "description": "Widening of approach roads to Manyata Tech Park with drainage and lighting improvements.",
+    "location": "Nagavara, Bengaluru - 560066",
+    "owner": "Bangalore Development Authority",
+    "budget": "₹30 Crores",
+    "deadline_months": 8
+  },
+  {
+    "pincode": "560066",
+    "title": "Sewage Line Upgrade",
+    "description": "Laying of underground sewage pipelines to improve sanitation infrastructure.",
+    "location": "Thanisandra Main Road, Bengaluru - 560066",
+    "owner": "BWSSB (Bangalore Water Supply and Sewerage Board)",
+    "budget": "₹12 Crores",
+    "deadline_months": 5
+  },
+  {
+    "pincode": "560100",
+    "title": "Underground Power Cabling",
+    "description": "Replacing overhead cables with underground lines to reduce outages.",
+    "location": "HSR Layout, Bengaluru - 560100",
+    "owner": "BESCOM (Bangalore Electricity Supply Company)",
+    "budget": "₹50 Crores",
+    "deadline_months": 14
+  },
+  {
+    "pincode": "560078",
+    "title": "Storm Water Drain Reconstruction",
+    "description": "Widening of storm water drains to prevent monsoon flooding in residential layouts.",
+    "location": "JP Nagar, Bengaluru - 560078",
+    "owner": "BBMP",
+    "budget": "₹18 Crores",
+    "deadline_months": 7
+  }
+]

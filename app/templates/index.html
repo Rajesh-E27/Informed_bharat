@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Informed Bharat - Infra Projects</title>
+  <link rel="stylesheet" href="/static/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>Informed Bharat</h1>
+
+    <form method="post" class="search-form">
+      <label for="pincode">Enter Pincode:</label>
+      <input type="text" name="pincode" required>
+      <button type="submit">Search</button>
+    </form>
+
+    {% if searched %}
+      {% if projects %}
+        <h2>Projects in Your Area</h2>
+        <div class="cards-container">
+          {% for project in projects %}
+            <div class="project-card">
+              <div class="card-header">
+                <h3>{{ project.title }}</h3>
+                <span class="badge">{{ project.pincode }}</span>
+              </div>
+
+              <p class="description">{{ project.description }}</p>
+
+              <p class="location"><strong>📍 Location:</strong> {{ project.location }}</p>
+              <p><strong>🏗️ Owner:</strong> {{ project.owner | default('Unknown') }}</p>
+
+              <div class="metrics">
+                <div class="metric-box">
+                  <p class="label">Budget</p>
+                  <p class="value">{{ project.budget | default('N/A') }}</p>
+                </div>
+                <div class="metric-box">
+                  <p class="label">Deadline</p>
+                  <p class="value">{{ project.deadline_months | default('N/A') }} months</p>
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+        </div>
+      {% else %}
+        <p>No projects found for this pincode.</p>
+      {% endif %}
+    {% endif %}
+  </div>
+</body>
+</html>
